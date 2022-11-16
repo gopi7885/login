@@ -1,0 +1,13 @@
+server:
+ port: 8080
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/employee
+    username: root
+    password: Gopi@5612
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+     ddl-auto: update
